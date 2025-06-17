@@ -1,0 +1,39 @@
+{
+  "name": "Xprl-Auto-Bot",
+  "version": "3.0.0",
+  "description": "A robust bot for interacting with the XPRL EVM Sidechain Testnet, supporting token swaps, liquidity provision, and token transfers.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kazuha787/Xprl-Auto-Bot.git"
+  },
+  "keywords": [
+    "xprl",
+    "testnet",
+    "evm",
+    "blockchain",
+    "crypto",
+    "bot",
+    "ethers",
+    "uniswap"
+  ],
+  "author": "Kazuha787",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Kazuha787/Xprl-Auto-Bot.git/issues"
+  },
+  "homepage": "https://github.com/Kazuha787/Xprl-Auto-Bot#readme",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "dotenv": "^16.0.0",
+    "ethers": "^6.0.0",
+    "inquirer": "^8.2.4"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
